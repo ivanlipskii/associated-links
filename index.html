@@ -1,5 +1,216 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<base href="./">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 <body>
-  <h1>Links</h1>
+	<header class="header">
+		<div class="container">
+			<div class="header-row row">
+				<div class="col-md-1 col-sm-2">
+					<a href="#" class="header-logo"></a>
+				</div>
+				<div class="header-nav text-center col-md-7">
+					<div class="header-nav__item"><a href="#">Главная</a></div>
+					<div class="header-nav__item"><a href="#">Продукты</a></div>
+					<div class="header-nav__item"><a href="#">Приложения</a></div>
+					<div class="header-nav__item"><a href="#">Поддержка</a></div>
+					<div class="header-nav__item"><a href="#">Контакты</a></div>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="header-cart cart"><span class="cart__item">1</span> товар</a>
+					<a href="tel:+375291111111" class="header-phone phone pull-right">+375 29 111-11-11</a>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<div class="content">
+		<div class="main-slider__background">
+			<div class="container">
+				<div class="main-slider">
+					<div class="main-slider__item">
+						<img src="images/ajax.png" alt="" class="main-slider__item-img pull-left">
+						<h1>Cum sociis natoque penatibus</h1>
+						<h3>At magnis dis parturient</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat at praesentium consequatur voluptas. Velit facilis quod, quo sequi neque eius quasi! Necessitatibus voluptas, neque, id eveniet quis blanditiis? Inventore.</p>
+						<a href="#" class="main-link">Подробнее</a>
+					</div>
+					<div class="main-slider__item">
+						<img src="images/ajax.png" alt="" class="main-slider__item-img pull-left">
+						<h1>Cum sociis natoque penatibus</h1>
+						<h3>At magnis dis parturient</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat at praesentium consequatur voluptas. Velit facilis quod, quo sequi neque eius quasi! Necessitatibus voluptas, neque, id eveniet quis blanditiis? Inventore.</p>
+						<a href="#" class="main-link">Подробнее</a>
+					</div>
+					<div class="main-slider__item">
+						<img src="images/ajax.png" alt="" class="main-slider__item-img pull-left">
+						<h1>Cum sociis natoque penatibus</h1>
+						<h3>At magnis dis parturient</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi placeat at praesentium consequatur voluptas. Velit facilis quod, quo sequi neque eius quasi! Necessitatibus voluptas, neque, id eveniet quis blanditiis? Inventore.</p>
+						<a href="#" class="main-link">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="products">
+			<div class="container text-center">
+				<h1>Продукты</h1>
+				<a href="#" class="main-link">Все продукты</a>
+				<div class="products-slider">
+					<div class="products-slider__item">
+						<div class="products-slider__item-img-shell">
+							<img src="images/motionprotect.png" alt="" class="products-slider__item-img">
+						</div>
+						<div class="products-slider__shadow">
+							<h3>Ajax MotionProtect</h3>
+							<p>Датчик движения, реагирующий на человека с первого шага</p>
+							<a href="#" class="main-link">Подробнее</a>
+							<div><a href="#" class="products-slider__button">Купить</a></div>
+						</div>
+					</div>
+					<div class="products-slider__item">
+						<div class="products-slider__item-img-shell">
+							<img src="images/hub.png" alt="" class="products-slider__item-img">
+						</div>
+						<div class="products-slider__shadow">
+							<h3>Ajax Hub</h3>
+							<p>Интеллектуальный центр системы безопасности Ajax</p>
+							<a href="#" class="main-link">Подробнее</a>
+							<div><a href="#" class="products-slider__button">Купить</a></div>
+						</div>
+					</div>
+					<div class="products-slider__item">
+						<div class="products-slider__item-img-shell">
+							<img src="images/doorprotect.png" alt="" class="products-slider__item-img">
+						</div>
+						<div class="products-slider__shadow">
+							<h3>Ajax DoorProtect</h3>
+							<p>Универсальный датчик  открытия окон и дверей</p>
+							<a href="#" class="main-link">Подробнее</a>
+							<div><a href="#" class="products-slider__button">Купить</a></div>
+						</div>
+					</div>
+					<div class="products-slider__item">
+						<div class="products-slider__item-img-shell">
+							<img src="images/spacecontrol.png" alt="" class="products-slider__item-img">
+						</div>
+						<div class="products-slider__shadow">
+							<h3>Ajax SpaceControl</h3>
+							<p>Брелок для управления  системой Ajax</p>
+							<a href="#" class="main-link">Подробнее</a>
+							<div><a href="#" class="products-slider__button">Купить</a></div>
+						</div>
+					</div>
+					<div class="products-slider__item">
+						<div class="products-slider__item-img-shell">
+							<img src="images/hub.png" alt="" class="products-slider__item-img">
+						</div>
+						<div class="products-slider__shadow">
+							<h3>Ajax Hub</h3>
+							<p>Интеллектуальный центр системы безопасности Ajax</p>
+							<a href="#" class="main-link">Подробнее</a>
+							<div><a href="#" class="products-slider__button">Купить</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="container">
+				<h1 class="text-center">Наши преимущества</h1>
+				<div class="advantages-list text-center clearfix">
+					<div class="advantages-list__item">
+						<img src="images/battery.png" alt="">
+						<p class="advantages-list__item-title">Отключение света</p>
+						<p class="advantages-list__item-description">Система продолжит работу от аккумулятора</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/wireless-router.png" alt="">
+						<p class="advantages-list__item-title">Поломка роутера или  сбой у провайдера</p>
+						<p class="advantages-list__item-description">Сигнал тревоги пройдет по  резервному GSM каналу связи</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/failure.png" alt="">
+						<p class="advantages-list__item-title">Вышел из строя датчик</p>
+						<p class="advantages-list__item-description">Благодаря частым пингам, об этом сразу станет известно</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/boot.png" alt="">
+						<p class="advantages-list__item-title">Вторжение</p>
+						<p class="advantages-list__item-description">Датчики движения с  технологией FirstStepDetection зафиксируют </p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/antenna.png" alt="">
+						<p class="advantages-list__item-title">Глушение радиоканала</p>
+						<p class="advantages-list__item-description">Датчики выберут чистую частоту</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/signal.png" alt="">
+						<p class="advantages-list__item-title">Пропала связь хаба  с сервером</p>
+						<p class="advantages-list__item-description">Мы узнаем об этом мгновенно</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/padlock.png" alt="">
+						<p class="advantages-list__item-title">Сканирование протоколов</p>
+						<p class="advantages-list__item-description">Не получится, все данные  зашифрованы</p>
+					</div>
+					<div class="advantages-list__item">
+						<img src="images/breaking.png" alt="">
+						<p class="advantages-list__item-title">Физический взлом датчиков</p>
+						<p class="advantages-list__item-description">Сработают сенсоры вскрытия</p>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-row__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="footer-title">Краткое описание AJAX</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repellat, deleniti quisquam aut accusantium debitis eligendi, ratione sequi, beatae quae est sit accusamus itaque ducimus doloribus tempore blanditiis illum architecto.</p>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-nav">
+							<div class="footer-nav__item"><a href="#">Главная</a></div>
+							<div class="footer-nav__item"><a href="#">Продукты</a></div>
+							<div class="footer-nav__item"><a href="#">Приложения</a></div>
+							<div class="footer-nav__item"><a href="#">Поддержка</a></div>
+							<div class="footer-nav__item"><a href="#">Контакты</a></div>
+						</div>
+						<div class="footer-col text-right pull-right">
+							<div class="footer-col__item">
+								<a href="#" class="cart"><span class="cart__item">1</span> товар</a>
+							</div>
+							<div class="footer-col__item">
+								<a href="#" class="mail">info@ajax.by</a>
+							</div>
+							<div class="footer-col__item">
+								<a href="tel:+375291111111" class="phone">+375 29 111-11-11</a>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-row__bottom">
+			<div class="container">
+				2017 - ООО "АЯКС". Все права защищены.
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
