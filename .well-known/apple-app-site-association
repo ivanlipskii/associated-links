@@ -4,7 +4,13 @@
     "details": [
       {
         "appID": "W4Q78DB34K.com.mobenga.marathon",
-        "paths": ["*"]
+        "paths": [
+          "/*/",
+          "/*/betting/*",
+          "/*/popular/*",
+          "/*/live/*",
+          "/*/events*"
+        ]
       }
     ]
   }
